@@ -219,7 +219,7 @@ a {
     padding-right: 3px;
     transition: 0.3s;
 }
-
+/* about and skill section's line */
 .line {
     justify-content: center;
     width: 25px;
@@ -227,7 +227,7 @@ a {
     background: #6b62c7;
     border-radius: 5px;
     float: left;
-    margin: 14px 8px;
+    margin: 15px 8px;
 }
 
 #clipping {
@@ -285,6 +285,7 @@ a {
     height: 15em;
     box-shadow: 2px 2px 4px 4px #c9c6c6;
     border-radius: 5px;
+    background: #e9e8ec;
 }
 
 .serviceArea1:hover, .serviceArea2:hover, .serviceArea3:hover, .serviceArea4:hover, .serviceArea5:hover, .serviceArea6:hover {
@@ -297,6 +298,76 @@ a {
     padding: .5em;
 }
 
-.serviceArea1 h1, .serviceArea2 h1, .serviceArea3 h1, .serviceArea4 h1, .serviceArea5 h1, .serviceArea6 h1 {
+.serviceArea1 h2, .serviceArea2 h2, .serviceArea3 h2, .serviceArea4 h2, .serviceArea5 h2, .serviceArea6 h2 {
     color: #6b62c7;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* skill */
+
+#skill {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.skillSection1 {
+    width: 50%;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.skillSection1 img {
+    height: 28em;
+}
+
+#clippath3 {
+    position: absolute;
+    z-index: -1;
+    height: 35em;
+    width: 100%;
+    background: #6b62c7;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+
+.skillSection2 {
+    width: 50%;
+    padding: 2em;
+}
+
+.skillSection2 h1 {
+    color: #6b62c7;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: .5em;
+}
+
+.skillSection2 p {
+    color: #6f648a;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.skillSection2 p a {
+    color: #6b62c7;
+    font-weight: 600;
+    float: left;
+    padding: 0.5em 0;
+}
+
+.skillSection2 p a:hover {
+    padding-right: 3px;
+    transition: 0.3s;
+}
+
+#inline2 {
+    display: inline;
 }
