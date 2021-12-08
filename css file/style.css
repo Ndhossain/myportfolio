@@ -317,7 +317,7 @@ a {
 
 .skillSection1 {
     width: 50%;
-    height: 35em;
+    height: 30em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -326,13 +326,13 @@ a {
 }
 
 .skillSection1 img {
-    height: 28em;
+    height: 65%;
 }
 
 #clippath3 {
     position: absolute;
     z-index: -1;
-    height: 35em;
+    height: 100%;
     width: 100%;
     background: #6b62c7;
     clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);

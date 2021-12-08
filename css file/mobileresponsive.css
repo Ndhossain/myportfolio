@@ -55,4 +55,21 @@
     #services {
         grid-template-columns: 1fr;
     }
+
+    #skill {
+        flex-direction: column;
+    }
+
+    .skillSection1 {
+        width: 100%;
+        height: 20em;
+    }
+    
+    .skillSection2 {
+        width: 100%;
+    }
+
+    .skillSection1 img {
+        height: 60%;
+    }
 }
