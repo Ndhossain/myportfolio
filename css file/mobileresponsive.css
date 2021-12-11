@@ -72,4 +72,8 @@
     .skillSection1 img {
         height: 60%;
     }
+
+    #skillDetails {
+        grid-template-columns: 1fr;
+    }
 }
