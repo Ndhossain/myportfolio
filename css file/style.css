@@ -685,3 +685,11 @@ a {
 .projects1, .projects2, .projects3, .projects4 {
     padding: 1em;
 }
+
+/* client */
+
+#client {
+    display: flex;
+    flex-direction: row;
+    background: #6b62c7;
+}

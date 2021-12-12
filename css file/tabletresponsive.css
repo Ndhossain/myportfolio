@@ -96,6 +96,8 @@
         grid-template-columns: 1fr;
     }
 
+    /* skill */
+
     #skill {
         flex-direction: column;
     }
@@ -115,5 +117,12 @@
 
     #skillDetails {
         grid-template-columns: 1fr 1fr;
+    }
+
+    /* projects */
+
+    #projects{
+        grid-template-columns: 1fr;
+        width: 100%;
     }
 }
