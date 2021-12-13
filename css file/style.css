@@ -686,10 +686,90 @@ a {
     padding: 1em;
 }
 
-/* client */
+/* CLients */
 
-#client {
+#clientMainSection {
+    color: #fff;
+    background: #6b62c7;
+    width: 100%;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    padding: 1em;
+}
+
+#clientSubSection {
     display: flex;
     flex-direction: row;
-    background: #6b62c7;
+    justify-content: center;
+    align-items: center;
+    height: 20Em;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 1px 1px 10px 10px rgba(255,255,255,0.3);
+    width: 40%;
+    border-radius: 5px;
+}
+
+.clientSection img {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+}
+
+.clientSection p {
+    padding: 1em 0;
+}
+
+.clientSection {
+    height: 100%;
+}
+
+.arrow {
+    position: relative;
+    background: #fff;
+    color: #6b62c7;
+    width: 10%;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#downerArrow {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#downerArrow:hover {
+    color: #232043;
+    cursor: pointer;
+}
+
+#upperArrow {
+    position: absolute;
+    bottom: 10px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#upperArrow:hover {
+    color: #232043;
+    cursor: pointer;
 }
