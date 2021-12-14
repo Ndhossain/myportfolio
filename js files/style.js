@@ -1,3 +1,5 @@
+// Menu
+
 var barger = document.getElementById('barger');
 barger.addEventListener('click', function slider() {
     let sliding = document.getElementById('menu');
@@ -10,3 +12,5 @@ cross.addEventListener('click', function slider() {
     let sliding = document.getElementById('menu');
     sliding.style.transform = 'translatex(100%)'
 })
+
+// testimonial
