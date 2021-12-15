@@ -4,6 +4,10 @@
     clip-path: polygon(100% 0, 100% 100%, 49% 46%, 0 100%, 0 0);
     }
 
+    #menu {
+        overflow: hidden;
+    }
+
     .header_area6 {
     grid-column-start: 1;
     grid-column-end: 3;
