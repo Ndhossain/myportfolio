@@ -43,7 +43,7 @@ a {
     text-decoration: none;
     z-index: 2;
     font-size: 1.3em;
-    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-family: cursive, 'Lobster', Helvetica, sans-serif;
 }
 
 /*Menu*/
@@ -162,6 +162,7 @@ a {
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    margin-top: 2em;
 }
 
 .aboutPart1, .aboutPart2 {
@@ -790,4 +791,32 @@ a {
 
 #downerArrow:hover {
     color: #232043;
+}
+
+
+
+
+
+/* social icons */
+
+#bodySocialIcons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 35%;
+    left: 0;
+}
+
+#bodySocialIcons a {
+    color: #fff;
+    padding: .5em .6em;
+    background: black;
+    margin-bottom: .1em;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#bodySocialIcons a:hover {
+    padding-left: 1.3em;
+    transition: 0.3s;
 }
