@@ -22,15 +22,15 @@ let down = document.getElementById('downerArrow')
 let x = 0;
 
 up.addEventListener('click', function () {
-    if (x > '-40') {
-        x = x - 20;
+    if (x > '-46') {
+        x = x - 23;
         slide.style.top = x + 'em';
     }
 })
 
 down.addEventListener('click', function () {
     if (x < 0) {
-        x = x + 20;
+        x = x + 23;
         slide.style.top = x + 'em';
     }
 })
