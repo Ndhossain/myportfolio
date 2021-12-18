@@ -137,4 +137,11 @@
     #slider {
         width: calc(100% - 3em);
     }
+
+    #blogSlider div:nth-of-type(1), #blogSlider div:nth-of-type(2), #blogSlider div:nth-of-type(3), #blogSlider div:nth-of-type(4) {
+        flex-basis: 98%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        margin: 1%;
+    }
 }

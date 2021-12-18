@@ -17,7 +17,7 @@ cross.addEventListener('click', function slider() {
 
 let slide = document.getElementById('slider');
 let up = document.getElementById('upperArrow');
-let down = document.getElementById('downerArrow')
+let down = document.getElementById('downerArrow');
 
 let x = 0;
 
@@ -32,5 +32,35 @@ down.addEventListener('click', function () {
     if (x < 0) {
         x = x + 23;
         slide.style.top = x + 'em';
+    }
+})
+
+// blogs
+
+let blogsSlide = document.getElementById('blogSlider');
+let left = document.getElementById('leftArrow');
+let right = document.getElementById('rightArrow');
+let body = document.getElementsByTagName('body')
+let width = screen.width;
+
+let b = 0;
+
+right.addEventListener('click', function () {
+    if (b > '-100' && width > 921) {
+        b = b - 50;
+        blogsSlide.style.left = b + '%';
+    } else if (b > '-300' && width <= 921) {
+        b = b - 100;
+        blogsSlide.style.left = b + '%';
+    }
+})
+
+left.addEventListener('click', function () {
+    if (b < 0 && width > 921) {
+        b = b + 50;
+        blogsSlide.style.left = b + '%';
+    } else if (b < 0 && width <= 921) {
+        b = b + 100;
+        blogsSlide.style.left = b + '%';
     }
 })

@@ -113,4 +113,12 @@
     #slider {
         width: calc(100% - 3em);
     }
+
+    #blogItems {
+        width: 95%;
+    }
+
+    .contentsOfBlogs {
+        padding: .5em;
+    }
 }
