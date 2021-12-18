@@ -118,6 +118,10 @@
         width: 95%;
     }
 
+    .blogContents img {
+        height: 9em;
+    }
+
     .contentsOfBlogs {
         padding: .5em;
     }
