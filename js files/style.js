@@ -40,7 +40,6 @@ down.addEventListener('click', function () {
 let blogsSlide = document.getElementById('blogSlider');
 let left = document.getElementById('leftArrow');
 let right = document.getElementById('rightArrow');
-let body = document.getElementsByTagName('body')
 let width = screen.width;
 
 let b = 0;
