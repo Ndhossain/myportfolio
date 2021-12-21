@@ -1001,16 +1001,152 @@ a {
     color: #6b62c7;
 }
 
+/* form */
+
 .contactWithMe {
     width: 48%;
     margin: 0 1%;
-    padding: 1em;
+    padding: 0 1em;
+    position: relative;
 }
 
+#positioning {
+    background-color: #fff;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    border-radius: 10px;
+}
 
+form {
+    padding: 1em 2.2em;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
 
+.inputArea {
+    position: relative;
+    margin: 1em 0;
+}
 
+.input {
+    width: 100%;
+    outline: none;
+    border: 2px solid #6b62c7;
+    background: none;
+    padding: 0.6em 1.2em;
+    color: #6b62c7;
+    font-weight: 500;
+    font-size: 0.95em;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
 
+textarea.input {
+    padding: 0.8em 1.2em;
+    min-height: 150px;
+    border-radius: 22px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.inputArea label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    padding: 0 0.4em;
+    color: #6b62c7;
+    font-size: 0.9em;
+    font-weight: 400;
+    pointer-events: none;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+.inputArea label i {
+    margin-right: .5em;
+}
+
+.inputArea.textarea label {
+    top: 1em;
+    transform: translateY(0);
+}
+
+.btn {
+    padding: .9em 1.8em;
+    background-color: #6b62c7;
+    border: 2px solid #6b62c7;
+    cursor: pointer;
+    color: #fff;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.3s;
+    margin: 0;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #6b62c7;
+}
+
+.inputArea span {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+    padding: 0 0.4em;
+    color: transparent;
+    pointer-events: none;
+    z-index: 500;
+}
+
+.inputArea span i {
+    margin-right: .4em;
+}
+
+.inputArea span::before, .inputArea span::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 5px;
+    background-color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.inputArea span::before {
+    left: 50%;
+}
+
+.inputArea span::after {
+    right: 50%;
+}
+
+.inputArea.focus label {
+    top: 0;
+    transform: translateY(-50%);
+    left: 25px;
+    font-size: 0.8em;
+}
+
+.inputArea.focus span::before, .inputArea.focus span::after {
+    width: 50%;
+    opacity: 1;
+}
+
+footer {
+    margin-top: 2em;
+    height: 15em;
+    background: linear-gradient(to right, #232043 , #6b62c7);
+}
 
 
 

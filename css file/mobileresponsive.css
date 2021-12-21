@@ -125,4 +125,8 @@
     .contentsOfBlogs {
         padding: .5em;
     }
+
+    form {
+        padding: 1em 0.1em;
+    }
 }
