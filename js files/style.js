@@ -71,17 +71,24 @@ const inputs = document.querySelectorAll('.input');
 function focusFunc() {
     let prent = this.parentNode;
     prent.classList.add('focus')
-}
+};
 
 function blurFunc() {
     let prent = this.parentNode;
     if (this.value == '') {
         prent.classList.remove('focus')
     }
-}
+};
 
 
 inputs.forEach(input => {
     input.addEventListener('focus', focusFunc);
     input.addEventListener('blur', blurFunc)
 });
+
+// footer
+
+const d = new Date();
+let time = d.getFullYear()
+
+document.getElementById('time').innerHTML = time

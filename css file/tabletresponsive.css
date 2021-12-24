@@ -162,4 +162,12 @@
     form {
         padding: 1em 0.1em;
     }
+
+    /* footer */
+
+    .subSection1 {
+        width: 50%;
+        margin-right: 20%;
+    }
+
 }

@@ -129,4 +129,16 @@
     form {
         padding: 1em 0.1em;
     }
+
+    .subSection1 {
+        width: 100%;
+    }
+
+    .subSection2 {
+        display: none;
+    }
+
+    #footerSection2 {
+        width: 90%;
+    }
 }

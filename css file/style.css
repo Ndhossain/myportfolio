@@ -1142,11 +1142,99 @@ textarea.input {
     opacity: 1;
 }
 
+/* Footer */
+
 footer {
     margin-top: 2em;
-    height: 15em;
     background: linear-gradient(to right, #232043 , #6b62c7);
 }
+
+#footerSection1 {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.subSection1 {
+    width: 30%;
+    color: #fff;
+    padding-top: 2em;
+}
+
+.subSection2 {
+    width: 20%;
+    color: #fff;
+    padding-top: 2em;
+    margin-left: 1em;
+}
+
+.subSection1 p {
+    margin-top: .3em;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: .3em;
+}
+
+.subSection2 ul {
+    list-style: none;
+    margin-top: .5em;
+}
+
+.subSection2 ul li {
+    padding: .3em;
+}
+
+.subSection2 ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.subSection2 ul li a:hover {
+    color: rgb(192, 180, 180);
+}
+
+.subSection2 h4 {
+    padding: .3em;
+}
+
+.subSection1 h4 {
+    padding: .3em;
+}
+
+#footerSection2 {
+    width: 85%;
+    margin: 0 auto;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #fff;
+    letter-spacing: .5px;
+}
+
+.sub2Section1 {
+    color: #fff;
+    font-size: 14px;
+}
+
+#footerSection2 .sub2Section1 p{
+    display: inline;
+    float: left;
+}
+
+#footerSection2 a{
+    color: #fff;
+}
+
+#footerSection2 a:hover {
+    color: rgb(192, 180, 180);
+}
+
+#time {
+    display: inline;
+}
+
 
 
 
